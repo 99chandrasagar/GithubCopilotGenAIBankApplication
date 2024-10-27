@@ -1,0 +1,19 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "BankingApiApp",
+            "request": "launch",
+            "mainClass": "springbootstarter.BankingApiApp",
+            "projectName": "BankingApplication"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Launch Banking App",
+            "program": "${workspaceFolder}/bankingapp/src/index.js",
+            "args": [],
+            "cwd": "${workspaceFolder}/bankingapp"
+        }
+    ]
+}

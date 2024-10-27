@@ -1,0 +1,37 @@
+/* src/SharedStyles.css */
+.custom-form {
+    background-color: #343a40; /* Dark background color */
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+  .custom-form .form-control {
+    background-color: white; /* Slightly lighter dark background for inputs */
+    color: #fff;
+  }
+  
+  .custom-form .form-control::placeholder {
+    color: #ccc;
+  }
+  
+  .custom-label {
+    color: #00bfff; /* Sky blue dark color */
+  }
+  
+  .custom-card-header {
+    background-color: #495057; /* Slightly lighter dark background for header */
+    color: #00bfff; /* Sky blue dark color for text */
+    text-align: center; /* Center align the text */
+    font-weight: bold; /* Make the text bold */
+  }
+  
+  .custom-button {
+    background-color: #28a745; /* Green background color */
+    border-color: #28a745; /* Green border color */
+    color: #fff; /* White text color */
+  }
+  
+  .custom-button:hover {
+    background-color: #218838; /* Darker green on hover */
+    border-color: #1e7e34; /* Darker green border on hover */
+  }

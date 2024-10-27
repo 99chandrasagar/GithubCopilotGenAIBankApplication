@@ -1,0 +1,146 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background-color: #000; /* Set entire background to black */
+}
+
+.custom-form {
+  background-color: #343a40; /* Dark background color */
+  padding: 20px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.custom-form .form-control {
+  background-color: white; /* Slightly lighter dark background for inputs */
+  color: #000;
+}
+
+.custom-form .form-control::placeholder {
+  color: #ccc;
+}
+
+.custom-label {
+  color: #00bfff; /* Sky blue dark color */
+}
+
+.custom-card-header {
+  background-color: #495057; /* Slightly lighter dark background for header */
+  color: #00bfff; /* Sky blue dark color for text */
+  text-align: center; /* Center align the text */
+  font-weight: bold; /* Make the text bold */
+}
+
+.custom-button {
+  background-color: #28a745; /* Green background color */
+  border-color: #28a745; /* Green border color */
+  color: #fff; /* White text color */
+  margin-top: 20px;
+}
+
+.custom-button:hover {
+  background-color: #218838; /* Darker green on hover */
+  border-color: #1e7e34; /* Darker green border on hover */
+}
+
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 300px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+label {
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+input {
+  padding: 10px;
+  font-size: 16px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.custom-form .form-group {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.custom-form .form-group label {
+  margin-bottom: 10px; /* Increase margin for better spacing */
+  text-align: center;
+}
+
+.custom-form .form-group input {
+  padding: 10px;
+  font-size: 16px;
+  width: 80%; /* Set the width to 80% */
+  box-sizing: border-box;
+}
+
+.custom-form .form-footer {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.custom-table {
+  width: 80%; /* Adjust the width as needed */
+  margin: 20px auto; /* Center the table horizontally */
+  border-collapse: collapse; /* Collapse borders */
+  text-align: center; /* Center align the text */
+}
+
+.custom-table th, .custom-table td {
+  border: 1px solid #ddd; /* Add border to table cells */
+  padding: 8px; /* Add padding to table cells */
+}
+
+.custom-table th {
+  background-color: #343a40; /* Dark background color for header */
+  color: white; /* White text color for header */
+}
+
+.custom-table tr:nth-child(even) {
+  background-color: #f2f2f2; /* Add background color to even rows */
+  color: #000; /* Ensure text color is black for visibility */
+}
+
+.custom-table tr:nth-child(odd) {
+  background-color: #fff; /* Add background color to odd rows */
+  color: #000; /* Ensure text color is black for visibility */
+}
+
+.custom-table tr:hover {
+  background-color: #ddd; /* Add background color on hover */
+  color: #000; /* Ensure text color is black for visibility */
+}

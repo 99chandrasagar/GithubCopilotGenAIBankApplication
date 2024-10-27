@@ -1,0 +1,16 @@
+.custom-jumbotron {
+  background-color: #343a40; /* Dark background color */
+  color: white; /* White text color */
+  text-align: center; /* Center align the text */
+  margin: 20px auto; /* Center the Jumbotron horizontally with margin */
+  padding: 40px 20px; /* Add padding for spacing */
+  border-radius: 5px; /* Rounded corners */
+}
+
+.custom-jumbotron h1 {
+  margin-bottom: 20px; /* Space below the heading */
+}
+
+.custom-jumbotron p {
+  margin-bottom: 0; /* Remove default margin below the paragraph */
+}

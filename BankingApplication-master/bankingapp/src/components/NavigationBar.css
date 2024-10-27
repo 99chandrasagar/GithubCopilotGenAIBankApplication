@@ -1,0 +1,33 @@
+.custom-navbar {
+  background-color: #343a40; /* Dark background color */
+}
+
+.nav-item-spacing {
+  margin-right: 15px; /* Adjust the margin as needed */
+  padding: 5px 10px; /* Adjust the padding as needed */
+}
+
+.navbar-brand {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-brand img {
+  margin-right: 10px;
+}
+
+.custom-navbar-brand {
+    color: #fff !important; /* White color for the link */
+  }
+  
+  .custom-navbar-brand:hover {
+    color: #ddd !important; /* Slightly lighter color on hover */
+  }
+
+.nav-link {
+  color: #fff !important;
+}
+
+.nav-link:hover {
+  color: #ddd !important;
+}
