@@ -1,5 +1,13 @@
 # Banking Application - README
 
+#Developed using GitHub Copilot
+@workspace /new
+@fix
+@workspace
+@terminal
+@VSCode
+Ctrl+Shift+I
+
 ## Overview
 
 This is a REST API-based banking application developed using **Java Spring Boot** for the backend and **ReactJS** for the frontend. The application supports typical banking operations such as managing users, accounts, loans, and transactions (deposits and withdrawals). The backend APIs are exposed through HTTP endpoints, and the frontend interacts with these APIs to provide a user-friendly interface.
